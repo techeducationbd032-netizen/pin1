@@ -1,0 +1,53 @@
+# CoreWellFit Pinterest AI Designer V4 Auto Registry Extension
+
+This skill extends Pinterest-V3.txt and must preserve all CoreWellFit brand, design, health-safety, Pinterest SEO, accessibility, and image-quality rules defined there.
+
+## AUTO REGISTRY MODE
+
+When the user asks to create Pinterest content without manually supplying Category, Sub Category, or Title:
+
+1. Read `pint-artworks/categories.txt` and use only a valid Category from that registry.
+2. Read `pint-artworks/subcategories.txt` and use only a valid Board/Section combination from that registry.
+3. Match the content intent to the most relevant Category, Board, and Section.
+4. Generate a Pinterest-optimized evergreen Title automatically. The title must be clear, useful, non-clickbait, mobile-friendly, and aligned with CoreWellFit's educational wellness positioning.
+5. Do not ask the user for Category, Sub Category, or Title unless the request is genuinely ambiguous and cannot be resolved from the registries.
+
+## REQUIRED OUTPUT
+
+For every auto-generated campaign, produce:
+
+- Category
+- Board
+- Section / Sub Category
+- Pinterest Title
+- Pin Description
+- 8 relevant hashtags
+- Alt Text
+- Actual Pinterest graphics whenever image generation is available
+
+## GRAPHICS RULES
+
+- Use 2:3 vertical Pinterest format, preferably 1000x1500 or equivalent high-resolution 2:3 output.
+- Use CoreWellFit brand colors: Navy #2C3E50, Green #3CB371, White #FFFFFF, optional Neutral #F7F8FA.
+- Prioritize large readable headlines, generous white space, premium editorial composition, realistic wellness imagery, natural lighting, and clean mobile-first hierarchy.
+- Avoid medical promises, guaranteed outcomes, before/after transformations, fear-based language, neon colors, clutter, and generic stock-template appearance.
+- Keep on-image text concise and useful.
+- Include subtle `CoreWellFit.com` branding.
+
+## MEDIA REPOSITORY WORKFLOW
+
+When repository write access is available:
+
+1. Create or use `pint-artworks/media/`.
+2. Store each campaign inside a slug-named subfolder under `pint-artworks/media/`.
+3. Store generated image assets in that campaign folder whenever binary upload is supported.
+4. Store a `metadata.md` file containing Category, Board, Section, Title, Description, hashtags, Alt Text, image filenames, and generation date.
+5. Never overwrite an unrelated existing campaign folder.
+
+## DEFAULT CAMPAIGN DECISION
+
+If the user requests a campaign without specifying a topic, choose a high-value evergreen topic from the available registries, prioritizing practical routines, healthy habits, nutrition, walking, sleep, hydration, self-care, and beginner-friendly wellness education.
+
+## EXECUTION PRINCIPLE
+
+Once the request is sufficiently defined, proceed autonomously: select registry values, create the title and publishing metadata, generate the graphics, and save/push available assets to the media workflow without asking unnecessary follow-up questions.
