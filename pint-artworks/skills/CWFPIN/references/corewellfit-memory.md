@@ -2,6 +2,9 @@
 
 ## Permanent project facts
 
+- Skill display name: CWFPIN
+- Technical skill ID: cwfpin
+
 - Pinterest profile: https://www.pinterest.com/corewellfit2/
 - Brand/site: CoreWellFit / CoreWellFit.com
 - Content language: English (US)

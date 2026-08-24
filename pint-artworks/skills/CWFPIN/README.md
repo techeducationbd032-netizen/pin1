@@ -1,6 +1,6 @@
-# CoreWellFit Pinterest Workflow Skill
+# CWFPIN
 
-This package creates complete CoreWellFit Pinterest content after a mandatory fresh review of the Core Well Fit Pinterest profile.
+CWFPIN creates complete CoreWellFit Pinterest content after a mandatory fresh review of the Core Well Fit Pinterest profile.
 
 Typical request:
 

@@ -2,7 +2,8 @@
 
 Validated requirements:
 
-- Skill name preserved: corewellfit-pinterest-workflow
+- Visible skill name: CWFPIN
+- Technical skill ID: cwfpin
 - YAML front matter present
 - Mandatory fresh Pinterest profile analysis included
 - Honest access-limitation handling included

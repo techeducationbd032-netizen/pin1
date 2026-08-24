@@ -1,13 +1,13 @@
 ---
-name: corewellfit-pinterest-workflow
-description: Analyze the current CoreWellFit Pinterest profile before creating Pinterest graphics, true 1000×1500 JPEGs, US-English titles, descriptions with exactly eight hashtags, accessible alt text, PPTX packages, and organized Google Drive deliverables. Use for single pins, carousels, or automatic batches for CoreWellFit.
+name: cwfpin
+description: CWFPIN analyzes the current CoreWellFit Pinterest profile before creating Pinterest graphics, true 1000×1500 JPEGs, US-English titles, descriptions with exactly eight hashtags, accessible alt text, PPTX packages, and organized Google Drive deliverables. Use for single pins, carousels, or automatic batches for CoreWellFit.
 ---
 
-# CoreWellFit Pinterest Workflow
+# CWFPIN
 
 ## Purpose
 
-Create complete, publish-ready Pinterest content for CoreWellFit. Always analyze the current Pinterest account before finalizing any JPEG, Pin Title, Description, Alt Text, or PPTX.
+CWFPIN creates complete, publish-ready Pinterest content for CoreWellFit. Always analyze the current Pinterest account before finalizing any JPEG, Pin Title, Description, Alt Text, or PPTX.
 
 ## Required profile analysis
 
